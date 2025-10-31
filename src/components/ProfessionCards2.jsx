@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
-import universityData from "../../../design/src/universityData.js";
+import universityData from "../data/universityData";
 
 // Helper to split into groups of N
 function chunkArray(array, size) {

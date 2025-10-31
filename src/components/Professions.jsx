@@ -1,7 +1,7 @@
 import React from "react";
 // import Professions from "../../../design/src/Professions.js";
 import { Link, useParams } from "react-router-dom";
-import universityData from "../../../design/src/universityData.js";
+import universityData from "../data/universityData";
 
 export default function Professions() {
   const { schoolId } = useParams();

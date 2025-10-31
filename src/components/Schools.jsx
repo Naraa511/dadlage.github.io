@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "../style/AboutProfessions.css"
-import universityData from "../../../design/src/universityData";
+import universityData from "../data/universityData";
 import { Link } from "react-router-dom";
 
 export default function Schools({ className = "md:w-2xs", onItemClick  }) {

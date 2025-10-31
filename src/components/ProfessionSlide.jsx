@@ -1,7 +1,7 @@
 import React from "react";
-import Professions from "../../../design/src/Professions.js";
+import universityData from "../data/Professions";
 import { Link } from "react-router-dom";
-import universityData from "../../../design/src/universityData.js";
+import universityData from "../data/universityData";
 export default function ProfessionCards() {
   return (
     <div className="py-4 sm:py-8">

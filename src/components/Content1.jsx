@@ -1,7 +1,7 @@
 import { useState } from "react";
 import haaisGadaa from "../image/haais-gadaa.png";
 import { Link } from "react-router-dom";
-import universityData from "../../../design/src/universityData";
+import universityData from "../data/universityData";
 import { School } from "lucide-react";
 import Schools from "./Schools";
 

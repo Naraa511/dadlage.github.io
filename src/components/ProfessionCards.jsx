@@ -1,5 +1,5 @@
 import React from "react";
-import Professions from "../../../design/src/Professions.js";
+import Professions from "../data/Professions";
 import { Link } from "react-router-dom";
 
 export default function ProfessionCards() {

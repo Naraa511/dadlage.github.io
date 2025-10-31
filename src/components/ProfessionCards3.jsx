@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import universityData from "../../../design/src/universityData.js";
+import universityData from "../data/universityData";
 
 export default function ProfessionCards3() {
   return (

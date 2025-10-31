@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
-import Professions from "../../../design/src/Professions";
+import Professions from "../data/Professions";
 import Schools from "./Schools";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogPanel, PopoverGroup } from "@headlessui/react";

@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { civilization } from "../data/Civilization";
 import AlphabetSelector from "./AlphabetSelector";
-import universityData from "../../../design/src/universityData";
+import universityData from "../data/universityData";
+
 
 export default function BachEve() {
   const [open, setOpen] = useState(false);
